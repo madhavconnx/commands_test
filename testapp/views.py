@@ -12,6 +12,9 @@ def register(request):
     #test
     a = 10 +20
     b = 10
+    abc = 200
+    dbc = 300
+    afc = 400
     if request.method == 'POST':
         username= request.POST.get('username')
         password = request.POST.get('password')
