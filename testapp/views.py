@@ -11,7 +11,7 @@ def home(request):
 def register(request):
     #test
     a = 10
-    b = 20
+    c = 20
     if request.method == 'POST':
         username= request.POST.get('username')
         password = request.POST.get('password')
