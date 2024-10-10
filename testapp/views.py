@@ -9,6 +9,9 @@ def home(request):
     return render(request,'muesumproject.html')
 
 def register(request):
+    #test
+    a = 10
+
     if request.method == 'POST':
         username= request.POST.get('username')
         password = request.POST.get('password')
