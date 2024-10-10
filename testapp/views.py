@@ -10,7 +10,7 @@ def home(request):
 
 def register(request):
     #test
-    a = 10
+    a = 40
     c = 20
     if request.method == 'POST':
         username= request.POST.get('username')
