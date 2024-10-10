@@ -1,0 +1,25 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+</head>
+<body>
+<form action="" method="post">{%csrf_token%}
+  <p>
+  <label for="username">Enter Username:</label>
+  <input id="username" name="username" type="text" placeholder="Enter Username">
+  <label for="password">Enter Password:</label>
+  <input id="password" type="password" placeholder="Enter Password"><br>
+  <button class="btn-btn-primary" type="submit">Submit</button>
+  </p>
+
+
+
+</form>
+
+</body>
+</html>

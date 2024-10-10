@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>docs.emmet.io</h2>
+<!--<h2>nav>ul>li*5>a hit enter</h2>-->
+<nav>
+    <ul>
+        <li><a href="">click me</a></li>
+        <li><a href="">click me</a></li>
+        <li><a href="">click me</a></li>
+        <li><a href="">click me</a></li>
+        <li><a href="">click me</a></li>
+    </ul>
+</nav>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">Contact</a></li>
+    </ul>
+</nav>
+<div>
+    <img src="{% static 'images/download.jpg'%}" alt="" width="200px">
+</div>
+<h3>click <a href="https://developer.mozilla.org/en-US/">here</a> for MDN Docs</h3>
+
+<a href="https://www.google.com">I am a Google</a>
+<p>you can click <a href="https://facebook.com">here</a> to go to facebook official page</p>
+<h1>Pangolin</h1>
+
+<h2>Intro</h2>
+<p>a<sup>2</sup>+b<sup>2</sup></p>
+<p>I like H <sup>2</sup>O</p>
+<p>entitycode.com</p>
+<p>1 &lt; 10 &gt; 6 &spades; &hearts;</p>
+<p>&nbsp</p>
+<hr>
+<p>Pangolins, sometimes known as scaly anteaters, <br>are mammals of the order Pholidota (from Ancient Greek φολῐ́ς, "horny
+    scale"). The one extant family, Manidae, has three genera: Manis, Phataginus and Smutsia. Manis comprises the four
+    species found in Asia, while Phataginus and Smutsia include two species each, all found in Sub-Saharan Africa. These
+    species range in size from 30 to 100 cm (12 to 39 in). A number of extinct pangolin species are also known.</p>
+<h2>Description</h2>
+<p>Pangolins have large, protective keratin scales covering their skin; they are the only known mammals with this
+    feature. They live in hollow trees or burrows, depending on the species. Pangolins are nocturnal, and their diet
+    consists of mainly ants and termites, which they capture using their long tongues. They tend to be solitary animals,
+    meeting only to mate and produce a litter of one to three offspring, which they raise for about two years.</p>
+
+<h2>Poaching</h2>
+<p><b>Pangolins</b> are threatened by poaching (for their meat and scales, which are used in Chinese traditional medicine) and
+    heavy deforestation of their natural habitats, and are the most trafficked mammals in the world.As of January 2020,
+    of the eight species of pangolin, three (Manis culionensis, M. pentadactyla and M. javanica) are listed as
+    critically endangered, three (Phataginus tricuspis, Manis crassicaudata and Smutsia gigantea) are listed as
+    endangered and two (Phataginus tetradactyla and Smutsia temminckii) are listed as vulnerable on the Red List of
+    Threatened Species of the International Union for Conservation of Nature.</p>
+</body>
+<h2>Numbers</h2>
+<ul>
+    <li>One
+        <ul>
+            <li> Number One</li>
+            <li>Number Two</li>
+        </ul>
+    </li>
+    <li>Two</li>
+    <li>Three</li>
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsApAMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAAIHAf/EAEEQAAIBAgQDBQYDBwIFBQEAAAECAwQRAAUhMRJBUQYTImGBMnGRobHwFELBIzNSYtHh8RWCJENykqIlU2PC0gf/xAAaAQADAQEBAQAAAAAAAAAAAAACAwQFAQAG/8QAKREAAgEDAwIGAgMAAAAAAAAAAQIAAxEhBBIxIkEFEzJRYXGBkUJSwf/aAAwDAQACEQMRAD8Av/8A/QoK2py2NKWB5Y0fjk4NSLDHMnVlYq6lW5gi2Op5n267M5aparzaAEflhvK3wQHHJu1HbDL67NqmrplkdHYBBa1wBYb+7Gx4dqxTXY+B7zC8T0LVW8ynkntJbaYwAjFWn7UzsSKenRB/Ex4j/TAElfnNZoJZrfyeEfLFj+JUhhQTI6fhFY+sgS6yyxwAtNIkajdnYAfPAFR2gyqDerVz0iBb+2KzDklXUHiqJDr53t6nDKPs7TxKGkBk5+Qwg6+s3pW0pXwzTr62J+pZIamjnpaaeCrhk77iBQMLoQbAHXc7+63XEmK+tNHEAIkVenCMPad+8hRm9oix9/PFWlrtU6X5mfrdKtLqTib49xgAO2PbYtmfMBx7fGWx7bHoMKyukaurFhDhNCb+7pi3siKx4g2g1FtTim0NQ9HWQ1MVi8TBgDseo+GmLFm3afLKXK1zOenqFVm4HSFe8ETa2BOmh5G2MzXbgwPabPhmxgV/l/kotQZ5ayaWqikimkYu6OLFb8rHXyxusYPJb+a4Pqu2vZnMSBW0k5YCyyNCOJR5EG4x5THJswN8ozQBiNIZwb/BrN9cQj4mk6NzIFi5FRf1xv3Ytqp9Pv7IwUaWpi0lhJ/mU8X9/kbY1Fr2OhGniGo5/pf/AG87jB3tzJGDQYxrt4xroCzWGv0/QeeM4FuLSNrbQnXXYWPPngrhABuPCBrraw568tLD1OMZDqp6kHSwB/MbdALC3qNsGDOXkAj4hdatUHnIF4vPz+xyxmJLQj96GUnYCLi02/T9eeMwUZ5s5xHTVNRoIyCNyB9cNcu7OyTsqnjkctay236XO398WyroKOmpLAMswU3V21Q9QOn0112wLlkxSThI7tOYFvUdB1wlaCst5e9dgbTel7JRRxiaoZEW4Hh8R2vv130122xv/p8ZSVY4wpjN+Jzv9+nPyw6pqu8VoACzJ4pX1PU2vrbQG22+AIW72WY/lv8AvGOi+Y6/2GuFoCL4gVGvbMT8BPhOt/4tvhhgAoUJNqQBY8/7Y1SK08t20A0Yi5PuxDI5uBawUWN9f8nbDnG7ESrbcwh6UKvEgFidD9/XDfsdUpS1s8Jhj71xxQuyAkMN9/Ll/LhVTz3js5O+tz9/2wdC4p2SeLh7yNuNb8yOR+mJjdTYylQri86BQSGYSQ1MULrIvC/hC8YPI29+Kd2pyZcmzERQsWglXjj4twOY9MXrJ+5qo0nQnhkUOp8iL4i7YZGuaw07QuiViXCBzYMulwf0wzS6nyq/NgYnXaPztP0i7DicxtjLYY5plNXldT3FVGdVBV0BKt1sfLGtDlVfXo70lLJJHGCWe1l+JxuishXdfE+WNGoH2bcwEDXC/Pl738IqMwAVldD7JNyQbbX8ZGGYG2B8whEkcZ/hb6/4wrVjdSMo8PqbNQL98SrVOTBjxRAI/wDAdj7sK54hAeGayMDqrY6Vl2XLVhYnQm+1hhpX9hQ9IGqV72LdWGjD15YwmqouDzPq1Rz9TmuWdpa+hASKs71P/bqAXX47/MYs1L2qpKsha6n7o2vxe2o+Go+GEub9mZsuUtCGlhGpZRqPeP1xXWPC3tWHS+mOCuwPxDbTowuJ1KNaaZUmpZVkTSxVuJeX9Ma/hiFQcTX0UtvYa3b6fEjbHOaTMGp37yKRo5NuJGt6X5+uLJQdqZ0sKtVnH8dgh9+mh+WKFdG+JI+mI4zHpiUayidSwuBDewHIem3uAxmNoM8y94wxd0P8Lobj4C2Mwf5ER5Hwf3FOYViTxqkQHg0Yrsw0sfPl/wCOu+I6GKJxK0jlpUsQB8j5e/6k4rcT1CAtHPdLDwym6lffuNL8zz6YsGUpNIqM8D0sezM5Gxvt6gm5tsemGq67doxGshBvGNEZIoTHKAwIB4BsB5+49cbtKxupHFx2On5bdfp6DGlVNFFSRpD7QPik24jbce8dffhWM2pvxMVJZ5BxcNlW9yeXvt87XwtrAbjOAEmwj2nhQvxxEkGw4l/N/wBPT39PPXHtXRrf2eEBrWA9ny9+B8umWWMy+wV0a4/d8re+9vl5DDGsWR4lZb8AtZR0PLzJwliQ2DidAG04ih4xDOVtwgDcfp6/P3Y2kDsoOuo0A58v7YkqYWurH2g9iB9+mD8rp+OrjL6iIcbX/i5D9cEe0FRn4l+yELR0NJTk3aGNVb3gAHFgcR1NiT4lOhxTYKoR6s2v1w3o8wVrYjq0je4mjTqqRaN66iSsonhdfF+UjfEFEI6Skjp40AWJbWtYYLpKgTaA7YXZv3sdQzxMwjYXbTQHC1u3ReGwVTvtmKq7s7luYxyLTQrS1WpRk0UnzGKTmuXVOXSNDXRlCCGDbqw6g88dBpSV8SnXDFVSeLgqESaJhYo4uPhixNW9MFGyDM+r4fTquKidLCc1yuV4mUroAdvPFqGcvJSFZNVA66E+f3/ZLm+Wx5XmzUsPEYGAMPFrYW1W/O309xOMLFVXXW+n3988TVFDZltNtuDA80y+Ys01IztpdotSd7XF9/dvrij5vksGYXeBvw8+91Hhb3/15a35Y6ZEwRbFuAKOfK36aE+mnTCrMaCOv/axgRTkMxBsAel7bHfXqcHScelhFVqTA76ZzOK19NWZbN3dWjLfY8m9xxlNWcNtQOulxjo9bRBhJS10AYA2dXHz8tb6jFPznsrLT8U+WEyR7mJvbUeR5+7664a1Igbl4g09SH6XwZFHmVktxEf9JIHwtjMIu9kjJRw4ZTYi5FjjzCt0p2y5RQwZNUGiq4jXV7WejpIjf2tQHPI35b+6+Ly2WSrk8BqZ4ywW4SNRwBtLqB010HPwkliScUWkoViiM5fuplPe01RxW8YOrMehtYnrfqMSV/aGs7QIIF/ZQv4WiXQs1iW5+FNbnqN9gAwBlIYxLbWBE9r80kr0jo6JNNRxR6s2tyqn58W31w0ynKko1BNjNbxSjZB0APxvz+vmXZelGthJepbR5LaKeg5AabHoSTYYZwxqXuFfhXS5uSxv59D8fIY87ExAI4HEjFNwcLIAI31ZRsf5/n8DflhzRVMDRpCpsF187dffy+zjIYhZhNa7D9oANDyCjy1+Db63xE1MtBmMd2A41LspFypH6DX1B6DAI2/pMYy7OtZpVFULFrADW1tABv8ADb44Ky5GSBXcEPJ4iDy6DAa9zW5lDS1EgjSS8jjc8K6hQDvc2B/34clQHNnBAPtW5YfSwbmIa5GO8VVuepSZotFHF3snAGc3sFudvgPmMWjKaiKri44m1X2kPtL78cshYVuZVtWxIVpdOtth8hh6tXPRSRyxko6+yynl0PUabY6VLDEcoCHM69lQcpoLqOZ2xJmkTSoGjTiFrEqdfhhL2fzhqzIY5CnBKXKSFR4SQATb4jDeiqdAia4z2BViZaCCINBRT8asV4FPNuWGMMSRgBpQG89seSTKbpcF7X4QdcaK6LHd1Gm3FrgC5adC2ivtTkpzFRNDIRIttl2I5+fu6YqJLrK0U68E0ZCuOXv8xz+zi0dou2NFkUPdn/iKt14kpo/aI6tfRV8z6AnHNZ8/zCpzN8wrAlmHC1PTrZUQXsF5k67nfoL4ppJUdeJNWZEPOZZ5IzPTvCjBSQLX1tYg/DQ/H3YEWZgGQLZ2IS19RfXbn+vLBNNPFJEsqMrxMAQRsy/0sxPy54yrpjIgkW34hbjUe3b7+XUagDbmMvcXg1T3dYtplubFkkXVl/ebdRoPvZDVUz0khUEMg1RwPCfMefl125WOasaNgrKxtYEA68VrfHxG3XY4XVOZ99A0fDcOra9bHl0OK6RZfqTVaav9xfU0FBUSd5PBTFiN5SAxHwP35anMay1sSN40Zy2ushUjXyxmKun4/Um8up8/uJZpJszqI4VRjGSO5h0W/wDM55X6bA4OWCLKZEqVcyq9lrDwexc+F7chcEW/lI64PpKOGkX8OFElS+7tpxE//U208x64Jd1kjMYXvVcWm4t7HTUdTa3kRbliU5htUubDiTwm3gReKJdJWve402PP8uvThGl9GtLGWIN1DWIjj/hO97dD98sVzLXeGRsvlkBSAd5A52miv9V1+fkTpm+ZSNXihonkDxn9u8beLyS/lz89NlGEsLxtHm0usHdxxGa4SCPW7ddrn3G45eXLCFHetrHqpAR3lljDck5D13P99dyZBRw5e0jOAveTniJCrbRQd7N4fPY6WxDU2EAguA9RdQRpZB7TeXT/AHYOmm0EmcrtuIQRdmE7Cmeoj0d3Hc9QbnhI87Xb/dh5W5iYssmZiA/dnbrhLLGazO6eiUGyEOy2te4uP/FfniXtU/4ejERPjlawXD8WIE4FO4RRQIY4ozchieLXnh3FOJu7TYi1xbA7UDLTo8UbFu7BJ25bY1iaakuzRq6W16jDgFK4nic5nQezdQiZNUQgarWOd+Vlw0WrMUHGeJRyNsV7IJ2/0yoZUYLJVEiQG35VNvnjTtJ23pcvWOlrGM1Q8fggiW735HoL+eIGTq47yhHx+IbVZ7KqMaeVge8Bfh0JF/pgntD2ikGRR1Sq8nELOKcgOhJsND0JHxxzSTtFmM0wMWU8CEhf2tQt/wBNcGydrUNJV5dmmXywIwaIyx/tBbrpqOul9hhr01AGItGe5vF4VlldyS0rtxO7MSzt1JOp++mJgQy3tf6/f3ywtyqpWop+DiDPHobHly9OWDb21+Nz99fniqkbqJHVBVzeMsir/wADWCmkIEFQ1oztwSG+nuYk+5vfi3d4viN+JAOJCRe/X5/e2OfyKsqMr3Ktoev+f1xYMhzSSpg/B1TE1ENgWt+8Q7N57kH3eeJdTQsdwlFKt027xhnFCtXE0iC8xBYi1+8vY299lv8APFPrD3chaYkKqsJO8NvzDfofP7NtzTNqbLKaSqrZAsZZgB+Z+SgdTrfTbfa+OaZ7nE/aCukqDEKanY+GNNOLbU9T8hy810mZcRqXc3kldmkbzkwKjxi4BdrHc48wsfwWVVFhsPXGYIs3vHACXdI1Re6QAy62HuGoPusCPKwxMHX2IiJSwHek6XvoD/utbyIA0tiv0/aKFkQ1MUyP+afRhofC1htw/De974fVNRHR07VEp/ZqC0zjnf68XLz1x695ntTZTmAdqK4UtLA9M/DViQNROo8XRieVrWH/AFeXDhb2cqoKakeslUiOE6lt3kOyW+vkBhc882cV7SlS00rBIoxoFXkP79dcDZjNHDVJDTsTTqQWtezSc38uK1vIYVxmXKtltLTQVtXm8ohYd3Hx9/UcB8T3J4FJ6X5czc9LNlKz1EkzMDEl1uNu7XU295/TC3KP+GySKeMH8RVHTkbnf4AA+uI87qFocripI2USTHgPku5+/L4VABVv7RNMA1cj4jnsWPxeY1WYMDxMLXPNnNwP+1R/3eeFXayoFX2maK3ClP8Aszp7Lc7+oxYOzX/pvZ5KiTwuVNS5G631UeihR6YqeUK1bmElQ4u7FpCTub7fO2BpKQQPzGVXDMzD6j1s1g4SI+JSD7LdMBVFUamNpgFW2nD1wLWogIenQIh6G9/6YiS5cAg6nbpi5KagXkbMTLiM9kybspVtHFFIGl/ZJJrxSFFA+Fr+4HFMzaCKAQzhzLM3DI8z2LOeNjc69LafXfHnaCteZoKTi/Y08m3IyEWJ9AAPjiCqkM0Cg6EU8b6eaL+v3yxnYNQke8rAIUXjCQlfFexBBBBtrqD9jGkxtUhmZXuPEQ172+d+G3x3x5C/HBGxNiy2Y9dL2xrI5vCxvYgGxBsbeE6nY24cX1xdQZJTHKyOSiglJYx2lOnGnha+39N+vuGNJjWURjdJhPAxsVlXxDmNR6/DAkNfUFl7wRsnFwsgSxUbb36EHltyw2PDLTyLKfAVJ22I3t6i/r64i3f1jSrKRuyIK2bxQTGCsjencAWY2ZWB2II6jXBsVQeOKqoJUaWPWNgQQ191Pk22E0y/j8s4zYzUgs3Piiv7+Vx6E9MB5VIlJXNHYDvtEJawD8gff8sMWuT0vkQjQAyvM8zCrq8zrPxuauXYkqE2WPxarblz/XnjwHwjzt9MG5jExjkqZojG6eGqitqG5MMLVvG/dva1xYjYYVbYbR6ncLz2QNccIuOpNueMxj+0dfnjMcNp2ezOSeBd/wDma6L5evPyxNLVGtpaWijDLBToBKWPtvfa/MC2l9rm3IYBUNEqqoLSzbW1JGGGX0qtVLG7FYApeRhuFG9vP64UOo3hGwF4QTHl9C0th3s6lYyRsp0Z/XVfjhdT03el++4rupLldTpsB5k2HpjetnNfW8PCEhQBrD8qgaD4fM4MoQQ0JGjMwna+liP3Q+jYPmDxLBRzSGlpe6j4mhijjVCNS9hxkdDxWHodr3wlq/8A1fPUiBLxXEV7Hncueo8II9cOUf8A03KZql7Aop7v+Ztrn4/5wH2Joi0s9Y/5F4bHfjezH4KEHqcPYelB3iRgFvaOe0dW8OVvErECYiMKMD9n4IpZX4GIRUCu1rcJ339BgDtVPxVMUF9I1Jb3n/GCsglljpTGv/Ne9+uwH0Pxwy12JH1AXCC8LzilEKN3c114tQV0seYwMa+LLMqmlYIXGkYIvdiLD76XxJmtK6liHBUflDct9sVLOpu9lSPiPCjj4nDKrbaF7zlNd1STV7WEQJLEOtz1Ou/zwW1/+GZtmo7akfldv/yMAZrYRra5HGNvXBcptFlsoBtwzJoP5zt8cZtPvKX7Qyha9HrchTz6XPL3Wx5UMBTIfCO7n87cLDX5gfPEWVG6yx6nhbS2u/8AjljapVpIJEHHd0663G2NkLvo2kV9tSKuEccsbWYFiSCfl6g4OpatouCRySp8Mov+ZRYm3UjXzwG5vGk5W5ZRxc9tD6WxDUO8BDKA17KVPO2xt7rYymwbiWbdwtMzCaWhq5UpXUByVBABHCR0Omx6YAV2kPBKbk7MOWDqiaOtpIJrESR3hIve62uvw1HwwsnLAAg+JDvhZ94xeLS0w1i1OXLWlC1RTWhrU08a/le3nt7/AJpa4LCI2jLNBIvFC5OoF9UPmDjzK8zahq0qljMkLrwVEJ2kjOhHpp8sMJKSGK9CXvST2kp5v4GPsNfpyP6YapLjbBICm8Xd/cC9j5k4zA8yyQSvDLeOSNirL0P9MZhRYxlhC6VCzNPKCt9eMfk/thhmlQ1HTfg3usp4XnHMEewoPrc+Z8sVwzSrwlZHG2zYLgdqiqpjOTIWa7FtSbkA3x4HsJwjvCqSnUIUm0Fu9nP8v8PrhzlELTzd7IFDzNxMeS/4Fz96KgeOCXj146tUa/NQNB8z8cP8q8UTsdT163bDlGYhjiC9pKpZpYqOxSAtcrzEai+vnb54s3Z6E0uVQrIvDJL+1lHRm1t6aD0xTcwAkz6qR9V4oo9f4TIoI+GL7V6QzkaWRiPLTDFN3Y+0BxZAspWZzfia+ec2txaagaD+2HcFTDSpSUkSqayRPat+6st+Ijnc3FtNvLWuhFNDC5F2ecBieY4gMM8uPedrK8vY8MzqumwHEAB6aYHfZQBCYWBMaVNTJ3i09XRBZXcJ3iNdXPl0NuW+KVmRK18sb7pU8G/8LEfpi+ZoqvC6MLr4j9Mc6mkeSWGSRizvUcTMdSTcG59cDWcmmBPUOSYdmn7lSOu/rgyZg+V0rixKVcq++6o3392BzYngh13J+uC3J/0iIaW/GA7f/GMJXkxh9IhOXE964vfiUMLDlf57nBa3SoX2VKyWCk9fXzwDQsRIljsCPl88M+EGbn7INr6c+WNnSdSWkdfpa8TyxLA1XTAqRDLxot/yML8z0YH0wLIvewcJ9q1hflwi+/uvhzmqKc7C2sGo7MAbXsWH0FsKIfaI5DgIHK5NsZ1RLNK1a4vFUZ4ZQhPhJ/TElQg1NvI4jqwF4iNLXtguXxA8Wt1B+WEqL4jT7xdAeCXuyLhj4eevT12+GGmUn8Wpy9jdgpan4juOa4U1fsqbC5UXNvfgidmjKSoSHVkYN0JUE/PAIxUzrLcR882X1PD/AK1C0lTGojDhDqo2vbny9MZg/P4Io8xYJGviRWNxfUjXGYqODwP1EgXzef/Z" alt="">
+</ul>
+
+</html>
