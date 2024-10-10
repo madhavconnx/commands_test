@@ -37,3 +37,7 @@ def loginPage(request):
             return HttpResponse('This user is not active')
     else:
         return render(request,'login.html')
+
+
+def new():
+    return  True
