@@ -41,3 +41,7 @@ def loginPage(request):
 
 def new():
     return  True
+
+def commit1():
+    # merge only commit 1
+    return True
