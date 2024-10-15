@@ -25,3 +25,5 @@ urlpatterns = [
 path('login1/',views.login,name='login'),
 path('login2/',views.login,name='login')
 ]
+
+# adding for git revert
