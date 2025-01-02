@@ -43,4 +43,5 @@ def new():
 
 def commit1():
     # merge only commit 1
+    #test
     return True
